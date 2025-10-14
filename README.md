@@ -7,6 +7,8 @@ ScINET-Genesis integrates the kinetic equation for finite times, and therefore e
 * M1: The kinetic equation is integrated on a regular equidistant grid in wavenumber space, using positive and negative wavenumbers including zeros for any predefined energy density spectrum.
 * M2: For isotropic energy density spectra, it is sufficient to evaluate the integral on the plane with zero meridional wavenumber in the zonal and vertical wavenumber space.
 
+<img src="media/M2.png" />
+
 ## ScINET - Infinity
 ScINET-Infinity makes use of the resonant condition and uses the limiting behaviour of infinite times to integrate a kinetic equation for only resonant interactions. The numerical codes are implemented in Julia native language.
 
@@ -14,6 +16,9 @@ ScINET-Infinity makes use of the resonant condition and uses the limiting behavi
 * M4: The kinetic equation is integrated on a loglog-grid in horizontal and vertical wavenumber after a coordinate transformation to cylindical coordinates. The resonance condition is implemented with a minimum finding algorithm.
 * M5: The kinetic equation is integrated on a non-equidistant grid tailored for an accurate integration of the resonant surfaces defined by the resonance condition. The resonance condition is implemented analytically.
 * M5-triads includes filters to identify and classify scale-separated from local interaction mechanisms.
+
+<img src="media/M5-triads.png" />
+
 
 ## Author
     * Pablo Sebastia Saez
