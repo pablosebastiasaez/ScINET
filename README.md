@@ -30,7 +30,7 @@ ScINET-Infinity makes use of the resonant condition and uses the limiting behavi
 <p align="center">
   <img src="media/M5-triads.png" width="900"/><br>
   <em>
-    Figure 2: M5-triads: Content spectrum of energy transfers within the GM76 model in (a), filtered energy transfers for ID in (b), for HD in (c), for ES in (d), for PSI in (e), for TPG in (f), for local interactions in (g), and the reminder in (h) as the difference of the overall integral in (a) and the sum of the filtered local and non-local interactions in (b to g).
+    Figure 2: M5-triads - Content spectrum of energy transfers within the GM76 model in (a), filtered energy transfers for ID in (b), for HD in (c), for ES in (d), for PSI in (e), for TPG in (f), for local interactions in (g), and the reminder in (h) as the difference of the overall integral in (a) and the sum of the filtered local and non-local interactions in (b to g).
   </em>
 </p>
 
