@@ -6,12 +6,11 @@ ScINET-Genesis integrates the kinetic equation for finite times, and therefore e
 
 * M1: The kinetic equation is integrated on a regular equidistant grid in wavenumber space, using positive and negative wavenumbers including zeros for any predefined energy density spectrum.
 * M2: For isotropic energy density spectra, it is sufficient to evaluate the integral on the plane with zero meridional wavenumber in the zonal and vertical wavenumber space.
-
-<img src="media/M2.png" />
-
 <p align="center">
-  <img src="media/M2.png" width="600"/><br>
-  <em>Figure 1: Example of the shallow water simulation.</em>
+  <img src="media/M2.png" width="900"/><br>
+  <em>Figure 1: Content spectra of energy transfers using M2 in Tab.\ref{tab:methods} for a finite time of $\Delta t= 10 \, \rm d$ within the modified GM76 model, see Appendix A. In (a) we exclude inertial and buoyancy oscillations. In (b) either the first or the second component of the interacting triad is an inertial oscillation. 
+    In (c) either the first or the second component of the interacting triad is a buoyancy oscillation. In the upper row, we integrate over near-resonant interactions, where $\omega_0- (\omega_1 \mp \omega_2)<10^{-4} s^{-1}$; whereas in the lower row, we integrate over the remaining non-resonant interactions.
+    The dashed-dotted lines show $\omega = 2f,3f,4f,10f$ and the dashed shows $\omega = N-2f$ for $f=10^{-4}\rm s^{-1}$ and $N=50f$.</em>
 </p>
 
 ## ScINET - Infinity
