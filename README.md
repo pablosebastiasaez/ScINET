@@ -17,7 +17,7 @@ ScINET-Genesis integrates the kinetic equation for finite times, and therefore e
   <img src="media/ShallowWater/shallow_water_example.png" width="600"/><br>
   <em>
   Figure 1: Content spectra of energy transfers using M2 for a finite time of 
-  $\Delta t = 10\,\mathrm{d}$ within the modified GM76 model. 
+  $$\Delta t = 10\,\mathrm{d}$$ within the modified GM76 model. 
   In (a) we exclude inertial and buoyancy oscillations. In (b) either the first or the 
   second component of the interacting triad is an inertial oscillation. 
   In (c) either the first or the second component of the interacting triad is a buoyancy 
