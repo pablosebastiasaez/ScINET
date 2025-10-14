@@ -24,9 +24,9 @@ ScINET-Genesis integrates the kinetic equation for finite times, and therefore e
 ScINET-Infinity makes use of the resonant condition and uses the limiting behaviour of infinite times to integrate a kinetic equation for only resonant interactions. The numerical codes are implemented in Julia native language.
 
 * M3: Similarly to M2, the integration is carried out on a regular equidistant grid for one slice in wavenumber space (under consideration of an isotropic energy density spectrum), and the resonance condition is implemented with a minimum finding algorithm such that the frequency mismatch in the triad is minimized to numerical precision.
-* M4: The kinetic equation is integrated on a loglog-grid in horizontal and vertical wavenumber after a coordinate transformation to cylindical coordinates. The resonance condition is implemented with a minimum finding algorithm.
-* M5: The kinetic equation is integrated on a non-equidistant grid tailored for an accurate integration of the resonant surfaces defined by the resonance condition. The resonance condition is implemented analytically.
-* M5-triads includes filters to identify and classify scale-separated from local interaction mechanisms.
+* [M4](https://github.com/pablosebastiasaez/ScINET/blob/main/Infinity/M4.jl): The kinetic equation is integrated on a loglog-grid in horizontal and vertical wavenumber after a coordinate transformation to cylindical coordinates. The resonance condition is implemented with a minimum finding algorithm.
+* [M5](https://github.com/pablosebastiasaez/ScINET/blob/main/Infinity/M5.jl): The kinetic equation is integrated on a non-equidistant grid tailored for an accurate integration of the resonant surfaces defined by the resonance condition. The resonance condition is implemented analytically.
+* [M5-triads](https://github.com/pablosebastiasaez/ScINET/blob/main/Infinity/M5-triads.jl) includes filters to identify and classify scale-separated from local interaction mechanisms.
 <p align="center">
   <img src="media/M5-triads.png" width="900"/><br>
   <em>
