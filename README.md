@@ -13,6 +13,23 @@ ScINET-Genesis integrates the kinetic equation for finite times, and therefore e
     The dashed-dotted lines show $\omega = 2f,3f,4f,10f$ and the dashed shows $\omega = N-2f$ for $f=10^{-4}\rm s^{-1}$ and $N=50f$.</em>
 </p>
 
+<p align="center">
+  <img src="media/ShallowWater/shallow_water_example.png" width="600"/><br>
+  <em>
+  Figure 1: Content spectra of energy transfers using M2 for a finite time of 
+  $\Delta t = 10\,\mathrm{d}$ within the modified GM76 model. 
+  In (a) we exclude inertial and buoyancy oscillations. In (b) either the first or the 
+  second component of the interacting triad is an inertial oscillation. 
+  In (c) either the first or the second component of the interacting triad is a buoyancy 
+  oscillation. In the upper row, we integrate over near-resonant interactions, where 
+  $\omega_0 - (\omega_1 \mp \omega_2) < 10^{-4}\,\mathrm{s^{-1}}$; whereas in the lower row, 
+  we integrate over the remaining non-resonant interactions. 
+  The dashed-dotted lines show $\omega = 2f, 3f, 4f, 10f$ and the dashed shows 
+  $\omega = N - 2f$ for $f = 10^{-4}\,\mathrm{s^{-1}}$ and $N = 50f$.
+  </em>
+</p>
+
+
 ## ScINET - Infinity
 ScINET-Infinity makes use of the resonant condition and uses the limiting behaviour of infinite times to integrate a kinetic equation for only resonant interactions. The numerical codes are implemented in Julia native language.
 
