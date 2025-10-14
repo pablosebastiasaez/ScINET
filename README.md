@@ -9,6 +9,11 @@ ScINET-Genesis integrates the kinetic equation for finite times, and therefore e
 
 <img src="media/M2.png" />
 
+<p align="center">
+  <img src="media/M2.png" width="600"/><br>
+  <em>Figure 1: Example of the shallow water simulation.</em>
+</p>
+
 ## ScINET - Infinity
 ScINET-Infinity makes use of the resonant condition and uses the limiting behaviour of infinite times to integrate a kinetic equation for only resonant interactions. The numerical codes are implemented in Julia native language.
 
