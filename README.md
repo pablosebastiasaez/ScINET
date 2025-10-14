@@ -13,7 +13,7 @@ ScINET-Infinity makes use of the resonant condition and uses the limiting behavi
 * M3: Similarly to M2, the integration is carried out on a regular equidistant grid for one slice in wavenumber space (under consideration of an isotropic energy density spectrum), and the resonance condition is implemented with a minimum finding algorithm such that the frequency mismatch in the triad is minimized to numerical precision.
 * M4: The kinetic equation is integrated on a loglog-grid in horizontal and vertical wavenumber after a coordinate transformation to cylindical coordinates. The resonance condition is implemented with a minimum finding algorithm.
 * M5: The kinetic equation is integrated on a non-equidistant grid tailored for an accurate integration of the resonant surfaces defined by the resonance condition. The resonance condition is implemented analytically.
-* M5-triads: Additionally, M5-triads includes filters to identify and classify scale-separated from local interaction mechanisms.
+* M5-triads includes filters to identify and classify scale-separated from local interaction mechanisms.
 
 ## Author
     * Pablo Sebastia Saez
