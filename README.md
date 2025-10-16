@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1073098037.svg)](https://doi.org/10.5281/zenodo.17367455)
 ![](media/logo.png)
 
 # Scattering Integral for Nonlinear Energy Transfers (ScINET)
