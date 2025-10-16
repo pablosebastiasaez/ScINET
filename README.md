@@ -42,9 +42,7 @@ ScINET-Infinity makes use of the resonant condition and uses the limiting behavi
 ```
 @software{sebastiasaez_scinet_2025,
   author       = {Sebastia Saez, Pablo},
-  title        = {pablosebastiasaez/ScINET: Scattering Integral for
-                   Nonlinear Energy Transfers
-                  },
+  title        = {pablosebastiasaez/ScINET: Scattering Integral for Nonlinear Energy Transfers},
   month        = oct,
   year         = 2025,
   publisher    = {Zenodo},
