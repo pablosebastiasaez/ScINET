@@ -38,7 +38,8 @@ ScINET-Infinity makes use of the resonant condition and uses the limiting behavi
 </p>
 
 ## How to cite
-'''
+
+```
 @software{sebastiasaez_scinet_2025,
   author       = {Sebastia Saez, Pablo},
   title        = {pablosebastiasaez/ScINET: Scattering Integral for
@@ -51,7 +52,7 @@ ScINET-Infinity makes use of the resonant condition and uses the limiting behavi
   doi          = {10.5281/zenodo.17367456},
   url          = {https://doi.org/10.5281/zenodo.17367456}
 }
-'''
+```
 
 ## Author
     * Pablo Sebastia Saez
