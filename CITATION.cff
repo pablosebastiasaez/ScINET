@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Sebastia Saez"
+    given-names: "Pablo"
+    orcid: "https://orcid.org/0009-0003-8589-417X"
+title: "Scattering Integral for Nonlinear Energy Transfers (ScINET)"
+version: v0
+identifiers:
+doi: 10.5281/zenodo.17367456
+date-released: 2025-10-16
+url: "https://github.com/pablosebastiasaez/ScINET"
