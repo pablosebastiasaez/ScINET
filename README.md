@@ -7,8 +7,8 @@ ScINET is a computational framework based on the kinetic equation to evaluate en
 ## [ScINET - Genesis](https://github.com/pablosebastiasaez/ScINET/tree/main/Genesis)
 ScINET-Genesis integrates the kinetic equation for finite times, and therefore evalutes resonant (where the sum or difference of the frequency of two interacting waves equals the one of the generated wave) and non-resonant interactions without distinction. The numerical codes are implemented in Cython language.
 
-* [M1](https://github.com/pablosebastiasaez/ScINET/tree/main/Genesis/M1): The kinetic equation is integrated on a regular equidistant grid in wavenumber space, using positive and negative wavenumbers including zeros for any predefined energy density spectrum.
-* [M2](https://github.com/pablosebastiasaez/ScINET/tree/main/Genesis/M2): For isotropic energy density spectra, it is sufficient to evaluate the integral on the plane with zero meridional wavenumber in the zonal and vertical wavenumber space.
+* [M1](https://github.com/pablosebastiasaez/ScINET/tree/main/Genesis/M1_M2): The kinetic equation is integrated on a regular equidistant grid in wavenumber space, using positive and negative wavenumbers including zeros for any predefined energy density spectrum.
+* [M2](https://github.com/pablosebastiasaez/ScINET/tree/main/Genesis/M1_M2): For isotropic energy density spectra, it is sufficient to evaluate the integral on the plane with zero meridional wavenumber in the zonal and vertical wavenumber space.
 <p align="center">
   <img src="media/M2.png" width="900"/><br>
   <em>
